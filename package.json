@@ -18,9 +18,9 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "craco start",
-    "build": "craco build",
-    "test": "craco test",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development --watch",
+    "start": "react-scripts start",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
